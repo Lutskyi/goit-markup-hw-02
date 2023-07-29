@@ -50,6 +50,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.link.nav:hover {
+  color: #404bbf;
+}
+.link.nav.focus {
+  color: #404bbf;
+}
+.place {
+  font-style: normal;
+}
 .link.adress {
   color: var(#434455);
   font-family: 'Roboto', sans-serif;
@@ -58,6 +67,12 @@ body {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.link.adress:hover {
+  color: #404bbf;
+}
+.link.adress:focus {
+  color: #404bbf;
 }
 .part {
   background-color: #2e2f42;
@@ -71,6 +86,23 @@ body {
   line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
+}
+.part.click {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+.part.click:hover {
+  color: #404bbf;
+}
+.part.click:focus {
+  color: #404bbf;
 }
 h3 {
   color: var(#434455);
