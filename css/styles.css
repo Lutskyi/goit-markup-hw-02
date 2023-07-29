@@ -33,7 +33,7 @@ body {
 }
 .link.color {
   color: #2e2f42;
-  font-family: 'Ralwey', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   font-style: normal;
@@ -59,14 +59,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-h1 {
-  color: var(#ffffff);
+.part {
+  background-color: #2e2f42;
+}
+.part.title {
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-weight: 700;
   font-style: normal;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
 }
 h3 {
   color: var(#434455);
@@ -76,4 +80,7 @@ h3 {
   font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.4px;
+}
+.footer {
+  background-color: var(--Dark);
 }
