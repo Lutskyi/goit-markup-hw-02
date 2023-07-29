@@ -42,7 +42,7 @@ body {
   text-transform: uppercase;
 }
 .link.nav {
-  color: var(--Dark-color);
+  color: var(--Dark);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -58,7 +58,7 @@ body {
   font-style: normal;
 }
 .link.adress {
-  color: var(--Text-color);
+  color: var(--Text);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -99,7 +99,7 @@ body {
   background-color: #404bbf;
 }
 .list.set {
-  color: var(--Dark-color);
+  color: var(--Dark);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -112,13 +112,13 @@ body {
   letter-spacing: 0.02em;
 }
 .end {
-  background-color: var(--Dark-color);
+  background-color: var(--Dark);
 }
 .end.link.color {
   color: #f4f4fd;
 }
 .end.text {
-  color: var(--Light-color);
+  color: var(--Light);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
