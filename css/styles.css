@@ -12,7 +12,7 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--Text);
+  color: var(--Text: #434455);
   background-color: var(--White-background);
 }
 .list {
@@ -42,7 +42,7 @@ body {
   text-transform: uppercase;
 }
 .link.nav {
-  color: var(#2e2f42);
+  color: var(--Dark: #2e2f42);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -51,14 +51,14 @@ body {
   letter-spacing: 0.32px;
 }
 .link.nav:hover,
-.link.nav.focus {
+.link.nav:focus {
   color: #404bbf;
 }
 .place {
   font-style: normal;
 }
 .link.adress {
-  color: var(#434455);
+  color: var(--Text: #434455);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -91,15 +91,15 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04px;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .part.click:hover,
 .part.click:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .list.set {
-  color: var(#2e2f42);
+  color: var(--Dark: #2e2f42);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -111,6 +111,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.footer {
-  background-color: var(--Dark);
+.end {
+  background-color: var(--Dark: #2e2f42);
+}
+.end.link.color {
+  color: #f4f4fd;
+}
+.end.text {
+  color: var(--Light: #f4f4fd);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
