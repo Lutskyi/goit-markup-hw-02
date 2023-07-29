@@ -50,9 +50,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.link.nav:hover {
-  color: #404bbf;
-}
+.link.nav:hover,
 .link.nav.focus {
   color: #404bbf;
 }
@@ -68,9 +66,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.link.adress:hover {
-  color: #404bbf;
-}
+.link.adress:hover,
 .link.adress:focus {
   color: #404bbf;
 }
@@ -90,28 +86,30 @@ body {
 .part.click {
   color: #ffffff;
   background-color: #4d5ae5;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.04px;
   cursor: pointer;
 }
-.part.click:hover {
-  color: #404bbf;
-}
+.part.click:hover,
 .part.click:focus {
   color: #404bbf;
 }
-h3 {
-  color: var(#434455);
+.list.set {
+  color: var(#2e2f42);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 500;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.4px;
+}
+.list.text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer {
   background-color: var(--Dark);
