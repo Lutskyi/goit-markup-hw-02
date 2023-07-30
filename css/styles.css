@@ -123,6 +123,9 @@ body {
 .subject {
   background-color: #f4f4fd;
 }
+.list.first {
+  background-color: #ffffff;
+}
 .end {
   background-color: var(--Dark);
 }
